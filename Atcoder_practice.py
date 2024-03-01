@@ -4,7 +4,7 @@ while True:
     if H == 0 and W == 0:
         break
 
-    for i in range(H):
+    for i in range(H+5):
         if i % 2 == 0:
             for j in range(W):
                 if j % 2 == 0:
